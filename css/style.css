@@ -148,7 +148,7 @@ a { color: inherit; text-decoration: none; }
 .hero__decor--1 { left: 53%; top: 64px; }
 .hero__decor--2 { left: 9%; top: 411px; }
 
-.hero__inner { position: relative; }
+.hero__inner { position: static; }
 
 .hero__card {
   position: relative;
@@ -187,16 +187,16 @@ a { color: inherit; text-decoration: none; }
 
 .hero__photo {
   position: absolute;
-  top: 0;
-  left: calc(100% - 1px);
-  width: 404px;
+  top: 82px;
+  right: 0;
+  width: min(404px, calc(100vw - 830px));
   height: 351px;
-  border-radius: var(--radius);
+  border-radius: var(--radius) 0 0 var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
 }
 .hero__photo img { width: 100%; height: 100%; object-fit: cover; }
-.hero__photo--dark { width: 505px; }
+.hero__photo--dark { width: min(505px, calc(100vw - 830px)); }
 .hero__photo--dark::after { content: ''; position: absolute; inset: 0; background: rgba(0, 0, 0, 0.2); }
 
 .hero__price { font-size: 19.8px; font-weight: 800; color: var(--black); margin-bottom: 10px; }
@@ -404,6 +404,9 @@ a { color: inherit; text-decoration: none; }
   flex-shrink: 0;
   scroll-snap-align: center;
 }
+/* центрируем ленту, когда она помещается; при переполнении остаётся скролл */
+.gallery__strip img:first-child { margin-left: auto; }
+.gallery__strip img:last-child { margin-right: auto; }
 .gallery__strip::-webkit-scrollbar { height: 8px; }
 .gallery__strip::-webkit-scrollbar-thumb { background: var(--panel); border-radius: 4px; }
 
@@ -680,7 +683,7 @@ a { color: inherit; text-decoration: none; }
 }
 
 /* ================= Адаптив ================= */
-@media (max-width: 1250px) {
+@media (max-width: 1160px) {
   .hero__photo { display: none; }
 }
 
