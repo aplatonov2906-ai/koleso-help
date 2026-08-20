@@ -198,17 +198,17 @@ a { color: inherit; text-decoration: none; }
 .hero__photo img { width: 100%; height: 100%; object-fit: cover; }
 
 /* ---------- Меню разделов ---------- */
-.menu { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 34px; position: relative; z-index: 2; }
+.menu { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 34px; position: relative; z-index: 2; }
 
 .menu__item {
   background: var(--yellow);
   border-radius: 8.5px;
   box-shadow: 0 8.5px 17px rgba(107, 134, 99, 0.1);
   color: var(--black);
-  font-size: 11.2px;
+  font-size: 10.6px;
   font-weight: 900;
   text-transform: uppercase;
-  padding: 16px 18px;
+  padding: 16px 12px;
   transition: background 0.2s ease, transform 0.2s ease;
   white-space: nowrap;
 }
@@ -446,9 +446,9 @@ a { color: inherit; text-decoration: none; }
 
 .calc__lead { font-size: 15px; color: var(--black); margin-bottom: 30px; }
 
-.calc__form { position: relative; z-index: 2; max-width: 380px; }
+.calc__form { position: relative; z-index: 2; max-width: 600px; }
 
-.field { border-bottom: 1px solid var(--line); margin-bottom: 26px; display: flex; align-items: center; gap: 13px; }
+.field { border-bottom: 1px solid var(--line); margin-bottom: 26px; display: flex; align-items: center; gap: 13px; max-width: 314px; }
 
 .field input {
   width: 100%;
@@ -557,7 +557,7 @@ a { color: inherit; text-decoration: none; }
 }
 .exp-card__icon img { width: auto; }
 
-.exp-card p { font-size: 16px; font-weight: 800; color: var(--ink); line-height: 1.0; font-size: 15px; }
+.exp-card p { font-size: 15px; font-weight: 800; color: var(--ink); line-height: 1.05; }
 
 /* ---------- Контакты ---------- */
 .contact__panel {
