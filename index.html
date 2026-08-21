@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Грузовой выездной шиномонтаж — Koleso.Help</title>
-  <meta name="description" content="Круглосуточный выездной грузовой шиномонтаж: Санкт-Петербург и область, КАД, ЗСД, М-11. Выезд мастера в течение 5 минут после звонка.">
+  <title>Koleso.Help — выездной шиномонтаж в Санкт-Петербурге</title>
+  <meta name="description" content="Выездной шиномонтаж, ремонт и замена шин в Санкт-Петербурге и области. Прибытие мастера за 30 минут, от 2500 руб. Круглосуточно.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
@@ -28,14 +28,6 @@
     <div class="header__contacts">
       <a class="header__phone" href="tel:+74951102222">+7 (495) 110 22-22</a>
       <a class="btn btn--white header__callback" href="#zayavka">Позвоните мне</a>
-      <div class="header__socials">
-        <a class="social social--accent" href="https://wa.me/74951102222" target="_blank" rel="noopener" aria-label="WhatsApp">
-          <img src="images/icon-header-wa.png" alt="" width="16" height="16">
-        </a>
-        <a class="social social--accent" href="https://t.me/kolesohelp" target="_blank" rel="noopener" aria-label="Telegram">
-          <img src="images/icon-header-tg.png" alt="" width="16" height="15">
-        </a>
-      </div>
     </div>
   </div>
 </header>
@@ -43,68 +35,41 @@
 <!-- ======================= ХИРО ======================= -->
 <section class="hero">
   <div class="hero__decor hero__decor--1" aria-hidden="true"></div>
-  <div class="hero__decor hero__decor--2" aria-hidden="true"></div>
   <div class="container hero__inner">
-    <div class="hero__card">
-      <nav class="breadcrumbs" aria-label="Хлебные крошки">
-        <a href="index.html">Главная</a> / <a href="#">Услуги</a> / <span>Выездной грузовой шиномонтаж</span>
-      </nav>
-      <h1 class="hero__title">Грузовой выездной шиномонтаж</h1>
-      <p class="hero__subtitle">Круглосуточный выезд мастера:<br>Санкт-Петербург и&nbsp;область, КАД, ЗСД, М-11</p>
+    <div class="hero__card hero__card--grey">
+      <p class="hero__eyebrow">
+        <img src="images/hero-icon.png" alt="" width="31" height="32">
+        Срочная помощь для колес вашего автомобиля
+      </p>
+      <h1 class="hero__title">Выездной шиномонтаж, ремонт и&nbsp;замена шин в&nbsp;Санкт-Петербурге и&nbsp;области.</h1>
+      <p class="hero__price hero__price--lg">Прибытие мастера<br>за&nbsp;30&nbsp;минут от&nbsp;2500&nbsp;руб.</p>
       <div class="hero__cta">
         <a class="btn btn--primary btn--lg" href="#zayavka">Оставить заявку</a>
         <span class="hero__hint">
-          перезвоним через 1 минуту
-          <svg class="hero__hint-arrow" width="44" height="16" viewBox="0 0 44 16" fill="none" aria-hidden="true">
-            <path d="M43 1C34 13 18 16 1 8m0 0l7-2M1 8l6 4" stroke="#2229e0" stroke-width="1.3" stroke-linecap="round"/>
-          </svg>
+          <img class="hero__hint-avatar" src="images/step-2-operator.png" alt="">
+          <span>Перезвоним через<br>1&nbsp;минуту!</span>
         </span>
       </div>
     </div>
-    <div class="hero__photo" aria-hidden="true">
-      <img src="images/hero-truck.jpg" alt="">
+    <div class="hero__photo hero__photo--dark" aria-hidden="true">
+      <img src="images/hero-glav.jpg" alt="">
     </div>
   </div>
 
   <!-- Меню разделов -->
   <nav class="menu container" aria-label="Разделы сайта">
     <a class="menu__item" href="#uslugi">Услуги</a>
-    <a class="menu__item" href="#">Легковой выездной шиномонтаж</a>
-    <a class="menu__item menu__item--active" href="index.html">Грузовой выездной шиномонтаж</a>
+    <a class="menu__item" href="shiny.html">Легковой выездной шиномонтаж</a>
+    <a class="menu__item" href="gruzovoy.html">Грузовой выездной шиномонтаж</a>
     <a class="menu__item" href="#stoimost">Стоимость</a>
-    <a class="menu__item" href="#corp">Корпоративным клиентам</a>
+    <a class="menu__item" href="gruzovoy.html#corp">Корпоративным клиентам</a>
     <a class="menu__item" href="#about">О нас</a>
   </nav>
 </section>
 
-<!-- ======================= ВИДЫ ТЕХНИКИ ======================= -->
-<section class="tech section">
+<!-- ======================= ПРЕИМУЩЕСТВА ======================= -->
+<section class="tech section section--tight">
   <div class="container">
-    <h2 class="section__title">Виды обслуживаемой техники:</h2>
-    <div class="tech__grid">
-      <div class="tech__item">
-        <img class="tech__img" src="images/tech-1-gruzovye.jpg" alt="Грузовой автомобиль" width="168" height="107" loading="lazy">
-        <ul class="tech__list">
-          <li>Грузовые автомобили</li>
-          <li>Спецтехника</li>
-        </ul>
-      </div>
-      <div class="tech__item">
-        <img class="tech__img" src="images/tech-2-stroitelnaya.jpg" alt="Строительная техника" width="168" height="107" loading="lazy">
-        <ul class="tech__list">
-          <li>Строительная техника</li>
-          <li>Карьерные самосвалы</li>
-        </ul>
-      </div>
-      <div class="tech__item">
-        <img class="tech__img" src="images/tech-3-pogruzchiki.jpg" alt="Вилочный погрузчик" width="168" height="107" loading="lazy">
-        <ul class="tech__list">
-          <li>Мини-погрузчики</li>
-          <li>Вилочные погрузчики</li>
-        </ul>
-      </div>
-    </div>
-
     <div class="benefits">
       <div class="benefit-card">
         <img src="images/benefit-1-clock.png" alt="" width="63" height="58" loading="lazy">
@@ -121,6 +86,62 @@
       <div class="benefit-card">
         <img src="images/benefit-4-warranty.png" alt="" width="53" height="63" loading="lazy">
         <p>Гарантия на&nbsp;все виды работ</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 5 МИНУТ / 4 КАРТОЧКИ ======================= -->
+<section class="quick section">
+  <div class="container">
+    <h2 class="section__title">Выезжаем на&nbsp;помощь в&nbsp;течении 5&nbsp;минут после вашего звонка</h2>
+    <p class="section__lead">Мастер приедет в&nbsp;течение 30&nbsp;минут с&nbsp;момента звонка</p>
+    <div class="quick__grid">
+      <figure class="service-card">
+        <img src="images/uslugi-1-remont.jpg" alt="Ремонт повреждений шин на месте" loading="lazy">
+        <figcaption>Ремонт повреждений и&nbsp;замена шин на&nbsp;месте</figcaption>
+      </figure>
+      <figure class="service-card">
+        <img src="images/uslugi-2-dostavka.jpg" alt="Доставка шин" loading="lazy">
+        <figcaption>Доставка б/у и&nbsp;новых шин в&nbsp;случае необходимости</figcaption>
+      </figure>
+      <figure class="service-card">
+        <img src="images/uslugi-3-evakuator.jpg" alt="Выездной шиномонтаж вместо эвакуатора" loading="lazy">
+        <figcaption>Быстрее и&nbsp;дешевле, чем эвакуатор + шиномонтаж</figcaption>
+      </figure>
+      <figure class="service-card">
+        <img src="images/uslugi-4-vyezd.jpg" alt="Выезд мастера" loading="lazy">
+        <figcaption>Выезд мастера в&nbsp;течение 30&nbsp;минут с&nbsp;момента заявки</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 24/7 ======================= -->
+<section class="always section">
+  <div class="container">
+    <div class="always__panel">
+      <div class="always__photo-wrap">
+        <img class="always__photo" src="images/photo-247.jpg" alt="Мастер выездного шиномонтажа за работой" loading="lazy">
+        <a class="btn btn--primary always__cta" href="#zayavka">Вызвать мастера</a>
+      </div>
+      <div class="always__content">
+        <h2 class="always__title">Мы&nbsp;рядом, когда вам нужна помощь. 24/7 в&nbsp;любую погоду, без выходных и&nbsp;праздников</h2>
+        <p class="always__lead">Решаем задачи любой сложности в&nbsp;любых условиях</p>
+        <div class="always__cards">
+          <div class="corp-card">
+            <span class="corp-card__num">Выгода</span>
+            <p>Существенная экономия времени и&nbsp;средств. Не&nbsp;нужно вызывать эвакуатор и&nbsp;платить дважды</p>
+          </div>
+          <div class="corp-card">
+            <span class="corp-card__num">Качество</span>
+            <p>Мастера-профессионалы решат любые проблемы с&nbsp;колесами вашей техники</p>
+          </div>
+          <div class="corp-card">
+            <span class="corp-card__num">Удобство</span>
+            <p>Комплексное решение проблем с&nbsp;колесами под ключ в&nbsp;кратчайшие сроки</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -157,129 +178,97 @@
   </div>
 </section>
 
-<!-- ======================= УСЛУГИ ======================= -->
-<section class="services section" id="uslugi">
+<!-- ======================= УСЛУГИ ШИНОМОНТАЖА ======================= -->
+<section class="uslugi section" id="uslugi">
   <div class="container">
-    <h2 class="section__title">Оказываем следующие услуги с&nbsp;выездом мастера:</h2>
-    <div class="services__grid">
-      <figure class="service-card">
-        <img src="images/service-1-zapaska.jpg" alt="Установка запасного грузового колеса" loading="lazy">
-        <figcaption>Установка запасного грузового колеса</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-2-remont.jpg" alt="Ремонт грузового колеса" loading="lazy">
-        <figcaption>Ремонт любых повреждений грузовых колес</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-3-vulkanizacia.jpg" alt="Горячая вулканизация шины" loading="lazy">
-        <figcaption>Горячая вулканизация с&nbsp;доставкой колеса в&nbsp;стационарный шиномонтаж</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-4-kamery.jpg" alt="Ремонт колесной камеры" loading="lazy">
-        <figcaption>Ремонт колесных камер</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-5-dostavka-shin.jpg" alt="Доставка грузовых шин" loading="lazy">
-        <figcaption>Доставка и&nbsp;установка новых и&nbsp;б/у грузовых шин</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-6-diski-flippery.jpg" alt="Грузовые диски и камеры" loading="lazy">
-        <figcaption>Доставка и&nbsp;установка грузовых колесных камер, дисков, флипперов</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-7-shpilki.jpg" alt="Замена грузовых шпилек" loading="lazy">
-        <figcaption>Замена грузовых шпилек</figcaption>
-      </figure>
-      <figure class="service-card">
-        <img src="images/service-8-svarka.jpg" alt="Сварочные работы" loading="lazy">
-        <figcaption>Сварочные работы</figcaption>
-      </figure>
+    <h2 class="section__title">Услуги шиномонтажа</h2>
+    <div class="uslugi__grid">
+      <a class="uslugi-card" href="shiny.html">
+        <img src="images/s-legkovoy.jpg" alt="Выездной легковой шиномонтаж" loading="lazy">
+        <span class="uslugi-card__label">Выездной легковой шиномонтаж</span>
+      </a>
+      <a class="uslugi-card" href="shiny.html">
+        <img src="images/s-remont-shin.jpg" alt="Ремонт шин" loading="lazy">
+        <span class="uslugi-card__label">Ремонт шин</span>
+      </a>
+      <a class="uslugi-card" href="gruzovoy.html">
+        <img src="images/s-gruzovoy.jpg" alt="Выездной грузовой шиномонтаж" loading="lazy">
+        <span class="uslugi-card__label">Выездной грузовой шиномонтаж</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-moto.jpg" alt="Выездной мото шиномонтаж" loading="lazy">
+        <span class="uslugi-card__label">Выездной мото шиномонтаж</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-sezonnaya.jpg" alt="Сезонная замена резины" loading="lazy">
+        <span class="uslugi-card__label">Сезонная замена резины</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-hranenie.jpg" alt="Сезонное хранение шин" loading="lazy">
+        <span class="uslugi-card__label">Сезонное хранение шин</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-sekretki.jpg" alt="Снятие секреток" loading="lazy">
+        <span class="uslugi-card__label">Снятие секреток</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-akb.jpg" alt="Запуск двигателя при севшем АКБ" loading="lazy">
+        <span class="uslugi-card__label">Запуск двигателя при севшем АКБ</span>
+      </a>
+    </div>
+    <div class="uslugi__grid uslugi__grid--wide">
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-argon.jpg" alt="Сварка в аргоне" loading="lazy">
+        <span class="uslugi-card__label">Сварка в&nbsp;аргоне</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-kondei.jpg" alt="Заправка автокондиционеров" loading="lazy">
+        <span class="uslugi-card__label">Заправка автокондиционеров</span>
+      </a>
+      <a class="uslugi-card" href="#zayavka">
+        <img src="images/s-pravka.jpg" alt="Правка дисков" loading="lazy">
+        <span class="uslugi-card__label">Правка дисков</span>
+      </a>
     </div>
   </div>
 </section>
 
 <!-- ======================= СТОИМОСТЬ ======================= -->
-<section class="prices section" id="stoimost">
+<section class="pricecards section" id="stoimost">
   <div class="container">
-    <h2 class="section__title">Стоимость основных услуг</h2>
-
-    <div class="price-block">
-      <div class="price-block__header">Стоимость основных услуг</div>
-      <div class="price-row">
-        <span class="price-row__label">Выезд мастера в&nbsp;пределах КАД</span>
-        <span class="price-row__value">от 2500 руб.</span>
+    <h2 class="section__title">Мобильный шиномонтаж и&nbsp;замена колес с&nbsp;выездом мастера в&nbsp;любое удобное место</h2>
+    <div class="pricecards__grid">
+      <div class="price-card">
+        <p>Установка запасного колеса</p>
+        <b>от 2500 ₽</b>
       </div>
-      <div class="price-row">
-        <span class="price-row__label">Доплата за&nbsp;выезд за&nbsp;пределы КАД, р/км</span>
-        <span class="price-row__value">50 р / км</span>
+      <div class="price-card">
+        <p>Замена шин для легковых автомобилей</p>
+        <b>от 2500 ₽</b>
       </div>
-    </div>
-
-    <div class="price-block">
-      <div class="price-block__header">Стоимость работ для грузовых автомобилей</div>
-      <div class="price-row price-row--head">
-        <span class="price-row__label">Диаметр колесного диска</span>
-        <span class="price-row__value">16”-20”</span>
-        <span class="price-row__value">21”-22,5”</span>
+      <div class="price-card">
+        <p>Замена шин для грузовых автомобилей</p>
+        <b>от 4000 ₽</b>
       </div>
-      <div class="price-row">
-        <span class="price-row__label">Выезд мастера в&nbsp;пределах КАД</span>
-        <span class="price-row__value">1500 руб.</span>
-        <span class="price-row__value">1800 руб.</span>
+      <div class="price-card">
+        <p>Замена шин для мотоциклов</p>
+        <b>от 3000 ₽</b>
       </div>
-      <div class="price-row">
-        <span class="price-row__label">Доплата за&nbsp;выезд за&nbsp;пределы КАД, р/км</span>
-        <span class="price-row__value">1500 руб.</span>
-        <span class="price-row__value">1800 руб.</span>
+      <div class="price-card">
+        <p>Запуск двигателя при севшем АКБ (прикурить)</p>
+        <b>от 2500 ₽</b>
       </div>
-    </div>
-
-    <div class="price-block">
-      <div class="price-block__header">Стоимость работ с&nbsp;колесами спецтехники</div>
-      <div class="price-row price-row--head">
-        <span class="price-row__label">Диаметр колесного диска</span>
-        <span class="price-row__value">до 15”</span>
-        <span class="price-row__value">после 15”</span>
+      <div class="price-card">
+        <p>Сезонная замена шин</p>
+        <b>от 1500 ₽</b>
       </div>
-      <div class="price-row">
-        <span class="price-row__label">Снятие и&nbsp;установка одного колеса</span>
-        <span class="price-row__value">2000 руб.</span>
-        <span class="price-row__value">от 2500 руб.</span>
+      <div class="price-card">
+        <p>Замена шин для спецтехники</p>
+        <b>от 7000 ₽</b>
       </div>
-      <div class="price-row">
-        <span class="price-row__label">Демонтаж-монтаж резины одного колеса</span>
-        <span class="price-row__value">от 1500 руб.</span>
-        <span class="price-row__value">от 2500 руб.</span>
-      </div>
-      <div class="price-row">
-        <span class="price-row__label">Ремонт камеры (без учета стоимости материалов)</span>
-        <span class="price-row__value">от 1000 руб.</span>
-        <span class="price-row__value"></span>
-      </div>
-      <div class="price-row">
-        <span class="price-row__label">Ремонт повреждения шины (без учета стоимости материалов)</span>
-        <span class="price-row__value">от 1500 руб.</span>
-        <span class="price-row__value"></span>
-      </div>
-      <div class="price-row">
-        <span class="price-row__label">Услуга доставки шины из&nbsp;магазина / в&nbsp;ремонт / из&nbsp;ремонта</span>
-        <span class="price-row__value price-row__value--wide">50 руб. / км + 1500 / нормо-час</span>
-        <span class="price-row__value"></span>
-      </div>
-      <div class="price-row">
-        <span class="price-row__label">Правка повреждений / замятий колесного диска в&nbsp;зависимости от&nbsp;сложности и&nbsp;продолжительности</span>
-        <span class="price-row__value">от 1000 руб.</span>
-        <span class="price-row__value"></span>
-      </div>
-      <div class="price-row">
-        <span class="price-row__label"><b>Дополнительные услуги, не&nbsp;указанные на&nbsp;сайте</b></span>
-        <span class="price-row__value price-row__value--wide">В соответствии с&nbsp;прайс-листом</span>
-        <span class="price-row__value"></span>
-      </div>
-      <div class="price-row">
-        <span class="price-row__label">Доплата за&nbsp;выезд за&nbsp;пределы КАД, р/км</span>
-        <span class="price-row__value">от 50 руб. / км</span>
-        <span class="price-row__value"></span>
+      <div class="price-card">
+        <p>Правка дисков, снятие секреток, сварка в&nbsp;аргоне</p>
+        <b>от 3000 ₽</b>
       </div>
     </div>
   </div>
@@ -289,11 +278,15 @@
 <section class="gallery section">
   <h2 class="section__title container">Фотогалерея нашей работы</h2>
   <div class="gallery__strip" tabindex="0">
-    <img src="images/gallery-1.jpg" alt="Выездной шиномонтаж — фото работы 1" loading="lazy">
-    <img src="images/gallery-2.jpg" alt="Выездной шиномонтаж — фото работы 2" loading="lazy">
-    <img src="images/gallery-3.jpg" alt="Выездной шиномонтаж — фото работы 3" loading="lazy">
-    <img src="images/gallery-4.jpg" alt="Выездной шиномонтаж — фото работы 4" loading="lazy">
-    <img src="images/gallery-5.jpg" alt="Выездной шиномонтаж — фото работы 5" loading="lazy">
+    <img src="images/gallery-glav-1.jpg" alt="Выездной шиномонтаж — фото работы 1" loading="lazy">
+    <img src="images/gallery-glav-2.jpg" alt="Выездной шиномонтаж — фото работы 2" loading="lazy">
+    <img src="images/gallery-glav-3.jpg" alt="Выездной шиномонтаж — фото работы 3" loading="lazy">
+    <img src="images/gallery-glav-4.jpg" alt="Выездной шиномонтаж — фото работы 4" loading="lazy">
+    <img src="images/gallery-glav-5.jpg" alt="Выездной шиномонтаж — фото работы 5" loading="lazy">
+    <img src="images/gallery-glav-6.jpg" alt="Выездной шиномонтаж — фото работы 6" loading="lazy">
+    <img src="images/gallery-glav-7.jpg" alt="Выездной шиномонтаж — фото работы 7" loading="lazy">
+    <img src="images/gallery-glav-8.jpg" alt="Выездной шиномонтаж — фото работы 8" loading="lazy">
+    <img src="images/gallery-glav-9.jpg" alt="Выездной шиномонтаж — фото работы 9" loading="lazy">
   </div>
 </section>
 
@@ -304,7 +297,7 @@
     <div class="masters__decor" aria-hidden="true"></div>
     <div class="masters__grid">
       <div class="master-card">
-        <img class="master-card__photo" src="images/master-1.jpg" alt="Мастер Артем Иванов" width="90" height="90" loading="lazy">
+        <img class="master-card__photo" src="images/master-1.jpg" alt="Мастер выездного шиномонтажа" width="90" height="90" loading="lazy">
         <div class="master-card__info">
           <h3>Артем Иванов</h3>
           <p class="master-card__age">34 года</p>
@@ -312,7 +305,7 @@
         </div>
       </div>
       <div class="master-card">
-        <img class="master-card__photo" src="images/master-2.jpg" alt="Мастер Иван Артемов" width="90" height="90" loading="lazy">
+        <img class="master-card__photo" src="images/master-2.jpg" alt="Мастер выездного шиномонтажа" width="90" height="90" loading="lazy">
         <div class="master-card__info">
           <h3>Иван Артемов</h3>
           <p class="master-card__age">34 года</p>
@@ -339,6 +332,65 @@
         </span>
         <p>С&nbsp;2015&nbsp;г наш опыт для вашей уверенности</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= О КОМПАНИИ ======================= -->
+<section class="about section">
+  <div class="container">
+    <div class="about__panel">
+      <div class="about__photo-wrap">
+        <img class="about__photo" src="images/director.jpg" alt="Директор и основатель компании KolesoHelp" loading="lazy">
+        <div class="about__badge">
+          <p class="about__badge-role">Директор и&nbsp;основатель компании KolesoHelp</p>
+        </div>
+      </div>
+      <div class="about__content">
+        <h2 class="about__title">Помогаем водителям уже более 12&nbsp;лет</h2>
+        <p class="about__text"><b>Мы оказываем полный спектр услуг выездного шиномонтажа.</b></p>
+        <p class="about__text">Не&nbsp;имеет значения, где и&nbsp;когда возникли трудности с&nbsp;вашими колесами&nbsp;— мы&nbsp;всегда готовы прийти на&nbsp;помощь. С&nbsp;нами вы&nbsp;можете рассчитывать на&nbsp;быстрое обслуживание, независимо от&nbsp;пробок, плохих погодных условий или времени суток. Оставьте заявку на&nbsp;нашем сайте или позвоните нам, и&nbsp;наш специалист приедет в&nbsp;удобное для вас время. Мы&nbsp;также предлагаем услуги по&nbsp;хранению шин, что избавит вас от&nbsp;необходимости искать место для их&nbsp;размещения.</p>
+        <div class="about__points">
+          <span>Дешевле, чем вызов эвакуатора</span>
+          <span>Быстрее, чем искать шиномонтаж</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= ОТЗЫВЫ ======================= -->
+<section class="reviews section">
+  <div class="container">
+    <h2 class="section__title">За&nbsp;6&nbsp;лет работы мы&nbsp;помогли более 5600&nbsp;автомобилистам</h2>
+    <div class="reviews__wrap">
+      <img class="reviews__avatar reviews__avatar--1" src="images/review-av1.jpg" alt="" loading="lazy">
+      <img class="reviews__avatar reviews__avatar--2" src="images/review-av2.jpg" alt="" loading="lazy">
+      <img class="reviews__avatar reviews__avatar--3" src="images/review-av3.jpg" alt="" loading="lazy">
+      <img class="reviews__avatar reviews__avatar--4" src="images/review-av4.jpg" alt="" loading="lazy">
+      <div class="review-card">
+        <h3>Алена Мухина</h3>
+        <p>Как женщина, я&nbsp;очень ценю такую услугу. Не&nbsp;нужно самой возиться с&nbsp;колесами или ехать в&nbsp;шиномонтаж. Мастер приехал вовремя, был вежлив и&nbsp;аккуратен. Рекомендую!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= FAQ ======================= -->
+<section class="faq section">
+  <div class="container">
+    <h2 class="section__title">Отвечаем на&nbsp;ваши вопросы</h2>
+    <div class="faq__grid">
+      <span class="faq__chip">Можно ли&nbsp;отремонтировать прокол шины на&nbsp;месте?</span>
+      <span class="faq__chip faq__chip--alt">Можно ли&nbsp;вызвать мобильный шиномонтаж ночью?</span>
+      <span class="faq__chip">Какие способы оплаты вы&nbsp;принимаете?</span>
+      <span class="faq__chip faq__chip--alt">Сколько времени занимает замена шин на&nbsp;выезде?</span>
+      <span class="faq__chip">Предоставляете ли&nbsp;вы&nbsp;скидки постоянным клиентам?</span>
+      <span class="faq__chip faq__chip--alt">Сколько времени займет выезд?</span>
+      <span class="faq__chip">Какие услуги предоставляет выездной шиномонтаж?</span>
+      <span class="faq__chip faq__chip--alt">Есть ли&nbsp;возможность оплаты наличными?</span>
+      <span class="faq__chip">Где хранятся шины?</span>
+      <span class="faq__chip faq__chip--alt">Как вызвать мастера?</span>
     </div>
   </div>
 </section>
@@ -373,102 +425,13 @@
   </div>
 </section>
 
-<!-- ======================= КОРПОРАТИВНЫМ КЛИЕНТАМ ======================= -->
-<section class="corp section" id="corp">
-  <div class="container">
-    <div class="corp__panel">
-      <div class="corp__photo-wrap">
-        <span class="corp__dot corp__dot--sm" aria-hidden="true"></span>
-        <span class="corp__dot corp__dot--lg" aria-hidden="true"></span>
-        <img class="corp__photo" src="images/corp-photo.jpg" alt="Мастер за работой" loading="lazy">
-        <a class="btn btn--primary corp__cta" href="#zayavka">Оставить заявку</a>
-      </div>
-      <div class="corp__content">
-        <h2 class="corp__title">Работа с&nbsp;физическими и&nbsp;юридическими лицами</h2>
-        <div class="corp__cards">
-          <div class="corp-card">
-            <span class="corp-card__num">01</span>
-            <p>Заключаем договоры на&nbsp;долгосрочное обслуживание техники организаций</p>
-          </div>
-          <div class="corp-card">
-            <span class="corp-card__num">02</span>
-            <p>Безналичная форма оплаты</p>
-          </div>
-          <div class="corp-card">
-            <span class="corp-card__num">03</span>
-            <p>Документооборот по&nbsp;ЭДО</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======================= ОПЫТ И ГАРАНТИЯ ======================= -->
-<section class="exp section">
-  <div class="container">
-    <h2 class="section__title">Опыт и&nbsp;гарантия</h2>
-    <div class="exp__decor" aria-hidden="true"></div>
-    <div class="exp__grid">
-      <div class="exp-card">
-        <span class="exp-card__icon" aria-hidden="true">
-          <svg width="40" height="41" viewBox="0 0 40 41" fill="#2229e0"><circle cx="20" cy="9" r="6"/><path d="M8 38c0-8 5-13 12-13s12 5 12 13v2H8z"/></svg>
-        </span>
-        <p>Профессиональные мастера с&nbsp;многолетним опытом</p>
-      </div>
-      <div class="exp-card">
-        <span class="exp-card__icon" aria-hidden="true">
-          <svg width="45" height="43" viewBox="0 0 45 43" fill="none" stroke="#2229e0"><circle cx="22.5" cy="24" r="15" stroke-width="3"/><path d="M22.5 15v9l6 4" stroke-width="3" stroke-linecap="round"/><path d="M17 4h11M22.5 4v5" stroke-width="3" stroke-linecap="round"/></svg>
-        </span>
-        <p>Более 8&nbsp;лет оказываем грузовые услуги с&nbsp;выездом</p>
-      </div>
-      <div class="exp-card">
-        <span class="exp-card__icon" aria-hidden="true">
-          <svg width="51" height="50" viewBox="0 0 51 50" fill="none" stroke="#2229e0"><path d="M3 15h28v20H3zM31 20h9l6 6v9h-15" stroke-width="3" stroke-linejoin="round"/><circle cx="12" cy="38" r="4" stroke-width="3"/><circle cx="39" cy="38" r="4" stroke-width="3"/></svg>
-        </span>
-        <p>Профессиональное грузовое оборудование</p>
-      </div>
-      <div class="exp-card">
-        <span class="exp-card__icon" aria-hidden="true">
-          <img src="images/icon-cogwheel.png" alt="" width="41" height="41" loading="lazy">
-        </span>
-        <p>Оснащение всем необходимым инструментом</p>
-      </div>
-      <div class="exp-card">
-        <span class="exp-card__icon" aria-hidden="true">
-          <img src="images/icon-bestseller.png" alt="" width="37" height="37" loading="lazy">
-        </span>
-        <p>Гарантия на&nbsp;все виды работ</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ======================= КОНТАКТЫ / CTA ======================= -->
+<!-- ======================= CTA / ВИДЕО ======================= -->
 <section class="contact section">
   <div class="container">
     <div class="contact__panel">
       <div class="contact__info">
         <h2 class="contact__title">Повредили шины? Позвоните нам&nbsp;— мы&nbsp;оперативно решим вашу проблему</h2>
-        <p class="contact__address">г.&nbsp;Москва, Дмитровское шоссе, дом&nbsp;73, стр.&nbsp;4, ТЦ&nbsp;Metromall</p>
-        <p class="contact__phone">
-          <a href="tel:+74999999999">+7 (499) 999 99-99</a><br>
-          <a href="mailto:info@ya.ru">info@ya.ru</a>
-        </p>
-        <div class="contact__socials">
-          <a class="social social--wa" href="https://wa.me/74999999999" target="_blank" rel="noopener" aria-label="WhatsApp">
-            <img src="images/icon-whatsapp.png" alt="" width="17" height="17">
-          </a>
-          <a class="social social--tg" href="https://t.me/kolesohelp" target="_blank" rel="noopener" aria-label="Telegram">
-            <img src="images/icon-telegram.png" alt="" width="17" height="15">
-          </a>
-          <a class="social social--yt" href="#" target="_blank" rel="noopener" aria-label="YouTube">
-            <svg width="24" height="17" viewBox="0 0 24 17" fill="#ffffff" aria-hidden="true"><path d="M23.5 2.7A3 3 0 0 0 21.4.5C19.5 0 12 0 12 0S4.5 0 2.6.5A3 3 0 0 0 .5 2.7 31 31 0 0 0 0 8.4c0 1.9.2 3.8.5 5.7a3 3 0 0 0 2.1 2.2c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.2c.3-1.9.5-3.8.5-5.7 0-1.9-.2-3.8-.5-5.7zM9.6 12.2V4.6l6.3 3.8z"/></svg>
-          </a>
-          <a class="social social--vk" href="#" target="_blank" rel="noopener" aria-label="ВКонтакте">
-            <svg width="20" height="13" viewBox="0 0 20 13" fill="#ffffff" aria-hidden="true"><path d="M10.9 12.9c-6 0-9.8-4.2-10-11.1h3.1c.1 5.1 2.4 7.3 4.2 7.7V1.8h2.9v4.4c1.7-.2 3.6-2.2 4.2-4.4h2.9a8.5 8.5 0 0 1-3.9 5.5 8.8 8.8 0 0 1 4.6 5.6h-3.2a5.5 5.5 0 0 0-4.6-4v4z"/></svg>
-          </a>
-        </div>
+        <a class="btn btn--primary btn--lg contact__cta" href="#zayavka">Оставить заявку</a>
       </div>
       <div class="contact__video">
         <img src="images/video-cover.jpg" alt="Фургон выездного шиномонтажа" loading="lazy">
