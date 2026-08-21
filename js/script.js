@@ -38,12 +38,30 @@ if (form) {
       return;
     }
 
+    // согласие на обработку ПД — обязательное активное действие (152-ФЗ)
+    const agree = document.getElementById('f-agree');
+    const agreeLabel = form.querySelector('.calc__agree');
+    if (!agree || !agree.checked) {
+      if (agreeLabel) {
+        agreeLabel.classList.add('calc__agree--error');
+        setTimeout(() => agreeLabel.classList.remove('calc__agree--error'), 2500);
+      }
+      if (agree) agree.focus();
+      return;
+    }
+
     const data = {
       service: form.service.value.trim(),
       car: form.car.value.trim(),
       disk: form.disk.value.trim(),
       phone: phoneInput.value.trim(),
       page: location.href,
+      // фиксация факта согласия (дата/время + версия документов)
+      consent: {
+        given: true,
+        at: new Date().toISOString(),
+        docs: 'privacy.html, soglasie.html (редакция от 21.08.2026)',
+      },
     };
 
     // TODO: подключить реальный приём заявок:
